@@ -1,0 +1,11 @@
+spring:
+  data:
+    mongodb:
+      database: journaldb
+      uri: mongodb+srv://yash200411:yashingale2004@cluster0.5hplyxj.mongodb.net/?appName=Cluster0
+      auto-index-creation: true
+
+server:
+  port: 8080
+  servlet:
+    context-path: /journal
